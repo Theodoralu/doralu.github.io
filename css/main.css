@@ -103,16 +103,45 @@ a{ text-decoration: none;}
 }
 
 /* Sections */
-.sections{
+.sections .paragraph h2{
     position: relative;
 }
+#s-1{
+    margin-top: 10%;
+}
 #s-2, #s-3 {
-    margin-top: 35%;
+    margin-top: 25%;
 }
 
 /* Floaring Number with Triangles */
 .no{
     position: absolute;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.no1{
+    width: 20%;
+    padding-bottom: 35%;
+    background-image: url(../images/tri/tri-s-1.png);
+    top: -80%;
+    left: -15%;
+}
+
+.no2{
+    width: 15%;
+    padding-bottom: 23%;
+    background-image: url(../images/tri/tri-s-2.png);
+    top: -80%;
+    left: -15%;
+}
+
+.no3{
+    width: 20%;
+    padding-bottom: 27%;
+    background-image: url(../images/tri/tri-s-3.png);
+    top: -80%;
+    left: -15%;
 }
 
 /* Paragraphs */
@@ -188,6 +217,12 @@ a{ text-decoration: none;}
 }
 #s-3-skill li p{
     line-height: 1.3;
+}
+
+#s-3 .plus{
+    width: 5%;
+    font-size: 2rem;
+    align-self: center;
 }
 
 /* Foooter */
