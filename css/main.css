@@ -326,6 +326,113 @@ a{ text-decoration: none;}
 }
 
 
+/* Protfolio */
+#portfolio #header{background-repeat: no-repeat;}
+#portfolio .img-set{
+    padding-bottom: 70%;
+    background-size: contain;
+    width: 100%;
+    display: block;
+}
+
+#s1 .i1 { background-image: url(../images/portfolio/apo.png);}
+
+#s2 .i1 { background-image: url(../images/portfolio/a1.jpg);}
+#s2 .i2 { background-image: url(../images/portfolio/a2.jpg);}
+#s2 .i3 { background-image: url(../images/portfolio/a3.png);}
+
+#s3 .i1 { background-image: url(../images/portfolio/b1.jpg);}
+
+#s4 .i1 { background-image: url(../images/portfolio/p1.png);}
+#s4 .i2 { background-image: url(../images/portfolio/p2.png);}
+#s4 .i3 { background-image: url(../images/portfolio/p3.png);}
+#s4 .i4 { background-image: url(../images/portfolio/p4.png);}
+#s4 .i5 { background-image: url(../images/portfolio/m1.png);}
+#s4 .i6 { background-image: url(../images/portfolio/m2.png);}
+#s4 .i7 { background-image: url(../images/portfolio/m3.png);}
+#s4 .i8 { background-image: url(../images/portfolio/m4.png);}
+
+#portfolio section{
+    position: relative;
+}
+.num {
+    position: absolute;
+    font-weight: bold;
+    left: 6%;
+    color: rgb(235, 235, 235);
+    font-size: 4rem;}
+
+#s1, #s2, #s3, #s4 {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+#s2{
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+#s1 .left{
+    width: 28%;
+    margin: 3% 0 0 0;}
+#s1 .right{width: 50%;}
+
+#s2 .bottom{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+#s2 .bottom li{
+    width: 50%;
+}
+
+#portfolio .left h5{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2;
+}
+#portfolio .left p{
+    color: #525252;
+}
+
+#s1 ul li:nth-of-type(1),
+#s1 ul li:nth-of-type(2),
+#s1 ul li:nth-of-type(3),
+#s2 ul li:nth-of-type(1),
+#s2 ul li:nth-of-type(2),
+#s2 ul li:nth-of-type(3),
+#s2 ul li:nth-of-type(4),
+#s2 ul li:nth-of-type(5),
+#s2 ul li:nth-of-type(6),
+#s3 p,
+#s4 ul li:nth-of-type(1),
+#s4 ul li:nth-of-type(2),
+#s4 ul li:nth-of-type(3),
+#s4 ul li:nth-of-type(4),
+#s4 ul li:nth-of-type(5),
+#s4 ul li:nth-of-type(6),
+#s4 ul li:nth-of-type(7){
+    line-height: 2;
+}
+
+#s2 .left{
+    width: 65%;
+}
+#s2 .right{
+    width: 40%;
+}
+
+#s3 {margin-top: 13%;}
+#s3 .left{width: 45%;}
+#s3 .right{width: 30%;}
+
+#s4 .num{
+    top: -10%;
+    left: -5%;
+}
+#s4 {margin-top: 13%;}
+#s4 .left{width: 31%;}
+#s4 .right{width: 69%;}
 
 @media screen and (max-width:768px){
 #nav {
@@ -391,6 +498,39 @@ left: -16%;
     display: none;
 }
 
+
+#s1, #s2, #s3, #s4,
+#s1 .left,#s2 .left,#s3 .left,#s4 .left,
+#s1 .right,#s2 .right,#s3 .right,#s4 .right,
+#s2 .bottom,
+#s2 .bottom li{
+    display: block;
+    width: 95%;
+    margin: auto;
+}
+#s1, #s2, #s3, #s4{
+    margin-top: 10%;
+}
+#s1 .num {
+    top: -10%;
+    left: 3%;
+}
+#s2 .num {
+    top: -4%;
+    left: 4%;
+}
+#s3 .num {
+    top: -11%;
+    left: 4%;
+}
+#s4 .num {
+    top: -7%;
+    left: 4%;
+}
+#s1 .left{
+    margin-left: 5%;}
+    #s2 .left,#s3 .left,#s4 .left{
+        margin-left: 5%;}
 
 /* (max-width:768px) end */
 }
