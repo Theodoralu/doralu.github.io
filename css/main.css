@@ -334,7 +334,8 @@ a{ text-decoration: none;}
     width: 100%;
     display: block;
 }
-
+#portfolio #s4 .bottom .img-set{
+    padding-bottom: 100%;}
 #s1 .i1 { background-image: url(../images/portfolio/apo.png);}
 
 #s2 .i1 { background-image: url(../images/portfolio/a1.jpg);}
@@ -344,13 +345,8 @@ a{ text-decoration: none;}
 #s3 .i1 { background-image: url(../images/portfolio/b1.jpg);}
 
 #s4 .i1 { background-image: url(../images/portfolio/p1.png);}
-#s4 .i2 { background-image: url(../images/portfolio/p2.png);}
-#s4 .i3 { background-image: url(../images/portfolio/p3.png);}
-#s4 .i4 { background-image: url(../images/portfolio/p4.png);}
-#s4 .i5 { background-image: url(../images/portfolio/m1.png);}
-#s4 .i6 { background-image: url(../images/portfolio/m2.png);}
-#s4 .i7 { background-image: url(../images/portfolio/m3.png);}
-#s4 .i8 { background-image: url(../images/portfolio/m4.png);}
+#s4 .i2 { background-image: url(../images/portfolio/s1.png);}
+#s4 .i3 { background-image: url(../images/portfolio/s2.png);}
 
 #portfolio section{
     position: relative;
@@ -383,6 +379,14 @@ a{ text-decoration: none;}
     justify-content: center;
 }
 #s2 .bottom li{
+    width: 50%;
+}
+#s4 .bottom{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+#s4 .bottom li{
     width: 50%;
 }
 
@@ -430,7 +434,9 @@ a{ text-decoration: none;}
     top: -10%;
     left: -5%;
 }
-#s4 {margin-top: 13%;}
+#s4 {
+    flex-wrap: wrap;
+    margin-top: 13%;}
 #s4 .left{width: 31%;}
 #s4 .right{width: 69%;}
 
@@ -502,8 +508,9 @@ left: -16%;
 #s1, #s2, #s3, #s4,
 #s1 .left,#s2 .left,#s3 .left,#s4 .left,
 #s1 .right,#s2 .right,#s3 .right,#s4 .right,
-#s2 .bottom,
-#s2 .bottom li{
+#s2 .bottom,#s2 .bottom li,
+#s4 .bottom,
+#s4 .bottom li{
     display: block;
     width: 95%;
     margin: auto;
